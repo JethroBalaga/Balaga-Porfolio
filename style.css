@@ -1,0 +1,144 @@
+/* ----- Custom Styles ----- */
+body {
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(33, 37, 41, 0.918), rgba(33, 37, 41, 0.795)),
+        url('https://plus.unsplash.com/premium_photo-1683121716061-3faddf4dc504?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Sticky Navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-nav .nav-link {
+    position: relative;
+}
+
+.navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #ffc107;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+}
+
+/* Section Styling */
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about-section {
+    background-color: #21252960;
+    color: #1c1b1b; /* white text for contrast */
+    padding: 70px 0;
+}
+        
+
+#about img {
+    width: 500px;
+    border: 5px solid #63625e; /* golden border */
+    transition: transform 0.3s;
+}
+
+#about img:hover {
+    transform: scale(1.05); /* subtle zoom on hover */
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+
+/* Skills Progress Bars */
+.progress-bar {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.skills-section {
+    background-color: #343a4045;
+    color: #292828;
+}
+
+/* Projects Section */
+.projects-section{
+    background-color: #343a4062;
+    color: #0f0e0e;
+}
+
+/* Remove default link style */
+.project-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Project Card */
+.project-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+/* Image style */
+.project-card img {
+    height: 220px;
+    object-fit:cover;
+}
+
+/* Hover effect */
+.project-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+/* Project Card Hover Effect */
+.card:hover {
+    transform: translateY(-10px);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/*contact*/
+.contact-section{
+    background-color: #343a40af;
+    color: #fff;
+}
+/* Footer */
+footer {
+    background-color: #212529;
+    color: #fff;
+}
+
+/* Smooth scroll offset for navbar */
+html {
+    scroll-padding-top: 70px;
+}

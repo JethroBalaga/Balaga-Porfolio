@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero text-white text-center">
+        <div class="container">
+            <h1>Hello, I'm Jethro Jay Balaga</h1>
+            <p class="lead">IT Student | Passionate on Computer Hardware| Web Development</p>
+            <a href="#projects" class="btn btn-light btn-lg mt-3">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 about-section">
+        <div class="container">
+            <h2 class="text-center mb-5">About Me</h2>
+                <div class="row align-items-center">
+                    <!-- Left: Profile Picture -->
+                    <div class="col-md-5 text-center mb-4 mb-md-0">
+                        <img src="image/jethro.png" alt="Jethro Jay Balaga" class="img-fluid rounded-circle shadow" style="max-width: 250px;">
+                    </div>
+
+                    <!-- Right: Information -->
+                    <div class="col-md-7">
+                        <p>
+                        Hi! I'm <strong>Jethro Jay Balaga</strong>, a fourth-year Information Technology student passionate about <strong>computer hardware</strong><strong>,</strong> <strong> video editing</strong> and <strong>web development</strong>. I enjoy building PCs and troubleshooting devices. I’m constantly learning new technologies and looking to apply my skills in practical, real-world projects.
+                        </p>
+                        <p>
+                        My goal is to combine my love for hardware and software to create efficient systems and innovative solutions.
+                        </p>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Skills</h2>
+            <div class="row text-center">
+                <div class="col-md-3 mb-3">
+                    <h5>Computer Hardware</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 90%;">90%</div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h5>Troubleshooting</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h5>Web Delopment</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h5>Video Editing</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Projects Section -->
+    <section id="projects" class="py-5 projects-section">
+        <div class="container">
+            <h2 class="text-center mb-5">Projects</h2>
+
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-md-4 mb-4">
+                        <div class="card project-card h-100">
+                            <img src="image/pc.png" class="card-img-top" alt="PC Build Project">
+                            <div class="card-body">
+                                <h5 class="card-title">Custom PC Build</h5>
+                                <p class="card-text">
+                                    Built and assembled a custom PC with proper cable management and hardware optimization.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-4 mb-4">
+                    <a href="https://youtu.be/R9QgZH5sUfU" target="_blank" class="project-link">
+                        <div class="card project-card h-100">
+                            <img src="image/video.png" class="card-img-top" alt="Video Editing">
+                            <div class="card-body">
+                                <h5 class="card-title">Indigenous Art Documentary</h5>
+                                <p class="card-text">
+                                    A video editing project that features indigenous communities and their artworks, highlighting their culture, creativity, and traditions through visual storytelling.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-4 mb-4">
+                    <a href="https://jethrobalaga.github.io/it35-lab/" target="_blank" class="project-link">
+                        <div class="card project-card h-100">
+                            <img src="image/web.png" class="card-img-top" alt="Website">
+                            <div class="card-body">
+                                <h5 class="card-title">Ionic Website Project</h5>
+                                <p class="card-text">
+                                    A responsive website developed using the Ionic framework as part of an academic project, focusing on mobile-friendly design and user interface.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3">
+        &copy; 2026 Jethro Balaga. All rights reserved.
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
